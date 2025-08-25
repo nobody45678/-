@@ -1,0 +1,13 @@
+<view class="continer">
+<image src="{{touxiang}}"></image>
+<text>{{name}}</text>
+<button open-type="chooseAvatar" 
+    bind:chooseavatar="onChooseAvatar"
+    >点击获取头像
+    </button>
+    <input 
+    type="nickname"
+    value="{{name}}"
+    bind:change="onNicknameChange"
+  />
+</view>

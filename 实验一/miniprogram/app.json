@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "default",
+    "navigationBarTitleText": "头像获取",
+    "navigationBarBackgroundColor": "#000000"
+  }
+}
