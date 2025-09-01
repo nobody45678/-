@@ -34,5 +34,9 @@
 本实验实现了一个微信小程序综合功能模块，核心定位为 “微信小程序云开发 + 百度图像识别的垃圾分类查询与识别系统”，不仅完成 “文本搜索垃圾分类、摄像头拍摄识别垃圾分类” 的核心需求，更围绕小程序云开发全流程（云环境搭建、云函数部署、云数据库操作）与第三方 AI 接口（百度图像识别）对接逻辑，构建了 “前端交互 - 云服务支撑 - AI 识别 - 数据存储” 的完整技术链路，为复杂小程序开发中 “云 + 端 + 第三方服务” 的协同应用提供实践范式。
 
 ### 以下是相关图片
+![](https://github.com/nobody45678/-/blob/main/image/%E5%AE%9E%E9%AA%8C%E4%B8%89/38daf263943e9bdd95e998dab1ab0db1.jpg?raw=true)
+![](https://github.com/nobody45678/-/blob/main/image/%E5%AE%9E%E9%AA%8C%E4%B8%89/da11c48354a45f20be9fd6d09198e001.jpg?raw=true)
+![](https://github.com/nobody45678/-/blob/main/image/%E5%AE%9E%E9%AA%8C%E4%B8%89/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-01%20164847.png?raw=true)
+![](https://github.com/nobody45678/-/blob/main/image/%E5%AE%9E%E9%AA%8C%E4%B8%89/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-01%20164905.png?raw=true)
 
 
