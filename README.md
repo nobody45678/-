@@ -46,6 +46,8 @@
 该模块通过调用微信小程序组件及配套 API，严格遵循小程序媒体交互规范，实现了从 “视频加载 - 弹幕交互 - 列表切换” 的全流程闭环：首先在 WXML 中配置组件，通过 controls 显示控制栏、enable-danmu 启用弹幕、danmu-btn 显示弹幕按钮，同时用 id="myVideo" 标识组件以获取实例；随后搭建弹幕交互区，用包裹输入框（bindinput 绑定 getDanmu 函数实时获取内容）与发送按钮（bindtap 绑定 sendDanmu 函数），结合 getRandomColor 工具函数生成随机弹幕颜色，调用 videoCtx.sendDanmu () 实现弹幕发送；再通过 wx:for 循环渲染 videoList 数组，为每个列表项绑定 playVideo 函数，点击时先调用 videoCtx.stop () 停止当前视频，再通过 data-url 获取新视频地址，用 setData 更新 src 后调用 videoCtx.play () 播放新视频；最后在 index.wxss 中用 Flex 布局、rpx 适配单位优化界面，确保视频占满屏幕宽度、弹幕区横向排列、列表项带分隔边框，兼顾美观与多设备适配。
 
 ###以下是相关图片
+
+
 ![](https://github.com/nobody45678/-/blob/main/image/%E5%AE%9E%E9%AA%8C%E5%9B%9B/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-02%20152047.png?raw=true)
 ![](https://github.com/nobody45678/-/blob/main/image/%E5%AE%9E%E9%AA%8C%E5%9B%9B/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-02%20152144.png?raw=true)
 ![](https://github.com/nobody45678/-/blob/main/image/%E5%AE%9E%E9%AA%8C%E5%9B%9B/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-02%20152224.png?raw=true)
