@@ -52,3 +52,12 @@
 ![](https://github.com/nobody45678/-/blob/main/image/%E5%AE%9E%E9%AA%8C%E5%9B%9B/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-02%20152144.png?raw=true)
 ![](https://github.com/nobody45678/-/blob/main/image/%E5%AE%9E%E9%AA%8C%E5%9B%9B/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-02%20152224.png?raw=true)
 ![](https://github.com/nobody45678/-/blob/main/image/%E5%AE%9E%E9%AA%8C%E5%9B%9B/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-02%20152252.png?raw=true)
+##实验五：第一个 HarmonySO 应用
+
+###项目概述
+
+本实验实现了一个 HarmonyOS 基础应用，核心定位为 “具有页面跳转与返回功能的简单应用”，不仅完成 “页面构建、按钮交互、页面间导航” 的核心需求，更围绕 HarmonyOS 应用开发的基础流程（工程创建、UI 布局设计、页面路由实现、调试预览）构建了完整的实践链路，为后续复杂 HarmonyOS 应用开发提供标准化的入门范式。
+
+该应用通过使用 ArkUI 框架的声明式开发范式，遵循 HarmonyOS 应用开发规范，实现了从 “工程搭建 - 页面设计 - 跳转逻辑 - 预览运行” 的全流程闭环：首先在 DevEco Studio 中创建基于 ArkTS 的 Empty Ability 工程，配置兼容的 SDK 版本等参数，自动生成基础工程结构；随后在 pages 目录下创建两个页面文件（Index.ets 和 Second.ets），采用 Row 和 Column 线性布局，分别添加 Text 组件展示文本信息、Button 组件作为交互入口，并设置组件的样式（字体大小、权重、颜色、尺寸等）；接着配置 main_pages.json 文件完成第二个页面的路由注册，导入 router 模块，在按钮的 onClick 事件中通过 router.pushUrl 实现从第一个页面到第二个页面的跳转，通过 router.back 实现从第二个页面返回第一个页面；最后利用预览器查看效果，
+
+###以下是相关图片
